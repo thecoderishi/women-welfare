@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.tab-lng
+{
+	width:100%;
+	border-bottom:solid blue 1px;
+}
+.tab-lng > .btn-lng
+{
+	border-radius:0px;
+	margin-right:0px;
+	padding:5px;
+	float:right;
+	margin-bottom:30px;
+	margin-left:5px;
+	border-bottom-right-radius:8px;
+}
+
+

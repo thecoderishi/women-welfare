@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin:0px;
+	padding:0px;
+}
+#topBar
+{
+	height:25px;
+	margin-top:5px;
+	width:100%;
+}
+.topbar > .container > .top-links > .text-welcome > strong > a
+{
+	text-decoration:none;
+	color:gray
+}
+.navbar
+{
+	border-radius:0px;
+	background:#8a909b;
+	border:none;
+	box-shadow:0 0 12px rgba(98,98,98,0.32);
+}
+.navbar-nav > li
+{
+}
+.navbar-nav > li:hover
+{
+	background:#6f737a;
+}
+.navbar-nav li > a
+{
+	font-size:13px;
+}
+img
+{
+    height:50px;
+}
+

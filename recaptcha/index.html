@@ -1,0 +1,16 @@
+<html>
+<head>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+    function onSubmit(token) {
+        document.getElementById("i-recaptcha").submit();
+    }
+</script>
+</head>
+<body>
+<form id='i-recaptcha' action="back.php" method="POST">
+  <input type="text">
+  <button class="g-recaptcha" data-sitekey="6LfLKE8UAAAAAAsJ_rjyTUeFo3OwVEeY7A0XQdWm" data-callback="onSubmit">Submit</button>
+</form>
+</body>
+</html>

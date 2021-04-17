@@ -1,0 +1,199 @@
+﻿
+/** ************************************* **
+extra.css
+rewrite here essentials.css other file.css
+
+
+
+ ** ************************************* **/
+
+/* moet aangepast worden for branch */
+.banner-sidebar.affix{
+    top: 100px;
+    z-index: 999;
+}
+
+.category-home{
+	color: #414141;
+}
+
+.category-home:hover{
+	color: #53777A;
+}
+
+.btn-complementary { 
+	background-color: #C73B37; color: #FFF !important; 
+}
+
+.centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text-default-body {
+ 	color: #666 !important;
+}
+
+.height-40 { 
+	height:40px !important;
+}
+
+.nobg {
+	background:transparent !important;
+}
+
+ul.categories>li:after {
+	content:' ; ' !important;
+}
+
+input[type=checkbox].disabled + i:after, input[type=checkbox][disabled] + i:after{
+	cursor: not-allowed;
+ }
+
+.table-borderless td, .table-borderless th {
+	border: 0 !important;
+}
+
+
+   /** Rewrite Select2
+ ********************** **/
+
+  /* the same height as input element */
+ .select2-container--default .select2-selection--single,
+ .select2-container--default .select2-selection--single .select2-selection__rendered,
+ .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height:40px !important;
+	line-height:36px !important;
+}
+
+ .select2-container .select2-selection--multiple {
+	min-height: 40px !important;
+	padding-left: 6px !important; 
+}
+
+.select2-container .select2-search--inline .select2-search__field {
+	margin-top: 8px !important; 
+} /* rewrite the same line-height as input element */
+
+/* tabs not show */
+.select2-results__option[aria-selected=true]{
+	display: none !important;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+	background-color: #53777A !important;
+}
+
+.select2-container--classic .select2-selection--single:focus {
+	border: 1px solid #53777A !important; 
+}
+
+.select2-container--classic .select2-selection--multiple:focus {
+	border: 1px solid #53777A !important; 
+}
+
+.select2-container--classic .select2-results__option--highlighted[aria-selected] {
+	background-color: #53777A !important;
+}
+
+ .select2-container--classic.select2-container--open .select2-dropdown {
+	border-color: #53777A !important; 
+}
+
+
+/* home search select2 rewrite */
+
+.search-big .select2-container.select2-container--default {
+	font-size : 15px;
+}
+
+.search-big .select2-selection.select2-selection--single {
+	border: #ddd 2px solid;
+	border-radius: 0;
+	border-right: 0;
+}
+
+@media (max-width: 767px) {
+	.search-big .select2-container.select2-container--default {
+		max-width: 80px;
+	}
+	.select2-container--open .select2-dropdown {
+		min-width: 150px;
+	}
+}
+/* end home search select2 rewrite */
+
+/* search-form select2 rewrite */
+
+#home .search-big input, #searchForm[name=detailsSearch] input {
+    color: #ffffff !important;
+}
+
+#home .search-big ::-webkit-input-placeholder, 
+#searchForm[name=detailsSearch] ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ffffff;
+}
+#home .search-big :-moz-placeholder,
+#searchForm[name=detailsSearch] :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #ffffff;
+   opacity:  1;
+}
+#home .search-big ::-moz-placeholder,
+#searchForm[name=detailsSearch] ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ffffff;
+   opacity:  1;
+}
+#home .search-big :-ms-input-placeholder,
+#searchForm[name=detailsSearch] :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #ffffff;
+}
+
+#home .search-big #search_type, #home .search-big .select2-container--default .select2-selection--multiple,
+#searchForm[name=detailsSearch] #search_type, #searchForm[name=detailsSearch] .select2-container--default .select2-selection--multiple{
+    border: #fff 2px solid !important;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+
+#home .search-big input {
+    background-color: inherit;
+}
+
+#searchForm[name=detailsSearch] .select2-selection__choice{
+    color: #666;
+}
+
+/* fix width choices for select2 */
+#searchForm[name=detailsSearch] .input-group .select2-container--default{
+    display: table!important;
+    table-layout: fixed!important;
+}
+/* end fix width choices for select2 */
+/* end search form select2 rewrite */
+
+/* mobile menu rewrite */
+@media only screen and (max-width: 992px) {
+
+    #header.bg-teal #topMain.nav-pills>li.active>a, #header.bg-teal #topMain.nav-pills>li:hover>a, #header.bg-teal #topMain.nav-pills>li>a{
+        color: #666 !important;
+    }
+}
+
+/* ui datepicker rewritte */
+
+select.ui-datepicker-month, select.ui-datepicker-year {
+	height: auto;
+	padding: 3px;
+}
+
+.ui-widget-header {
+	background: #53777A !important;
+}
+
+/* end ui datepicker rewritte */
+
+
+
+
+
